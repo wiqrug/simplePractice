@@ -1,0 +1,73 @@
+.deer {
+    width: 60px;
+    height: 60px;
+  }
+
+  h1 {
+    font-family: "Courier New", Courier, monospace;
+    margin-left: 50px;
+    width: 650px;
+    height: 100px;
+    padding-top: -30px;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgb(0, 66, 180);
+  }
+  .homeNavBar {
+    background-color: gray;
+    height: 60px;
+    display: flex;
+  }
+
+  #island {
+    font-weight: lighter;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 8px;
+    margin-left: 300px;
+    font-style: italic;
+    border-left: solid;
+  }
+
+  #dama-dama {
+    font-weight: lighter;
+    font-style: italic;
+    border-left: solid;
+    padding-bottom: 30px;
+    padding-left: 8px;
+  }
+  #img2 {
+    width: 902px;
+    height: 560px;
+  }
+  .container {
+    margin-left: -9px;
+    margin-top: -9px;
+    background-color: gray;
+  }
+  #sea {
+    width: 1529px;
+    height: 80px;
+  }
+
+
+  .clickable a {
+    color: black;
+    transition: color 0.3s, background-color 0.3s; /* smooth transition for color and background change */
+  }
+
+  .clickable:hover a {
+    color: grey;
+    background-color: black;
+  }
+
+  .clickable:hover {
+    background-color:black;
+
+  }
+  a {
+    color: black;
+  }
+
+  a:hover {
+    color: grey;
+  }
